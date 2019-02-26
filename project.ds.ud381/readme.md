@@ -9,6 +9,8 @@ Source code of tasks
 
 \- dir stage3: sentence word counter
 
+\- dir stage5: Twitter word counter
+
 ## additional resources:
 \- <a href = 'https://storm.apache.org/'>Apache Storm</a>
 
