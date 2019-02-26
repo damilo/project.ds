@@ -11,6 +11,8 @@ Source code of tasks
 
 \- dir stage5: Twitter word counter
 
+\- dir stage6: Twitter word rolling counter (using existent classes of Apache Storm GitHub examples)
+
 ## additional resources:
 \- <a href = 'https://storm.apache.org/'>Apache Storm</a>
 
