@@ -28,6 +28,8 @@ Source code of tasks
 ### parts
 \- dir stage3: Parsing Tweet URLs
 
+\- dir stage4: Top N hashtags
+
 
 ## additional resources:
 \- <a href = 'https://storm.apache.org/'>Apache Storm</a>
