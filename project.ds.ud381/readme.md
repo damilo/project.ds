@@ -30,6 +30,8 @@ Source code of tasks
 
 \- dir stage4: Top N hashtags
 
+\- dir stage6: streaming joins (multiple Spouts)
+
 
 ## additional resources:
 \- <a href = 'https://storm.apache.org/'>Apache Storm</a>
