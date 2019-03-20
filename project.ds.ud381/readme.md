@@ -33,6 +33,10 @@ Source code of tasks
 \- dir stage6: streaming joins (multiple Spouts)
 
 
+## dir: project.ds.twitter
+Source code of final project
+
+
 ## additional resources:
 \- <a href = 'https://storm.apache.org/'>Apache Storm</a>
 
