@@ -30,14 +30,14 @@ __atomar tasks__:
 __topology__:
 
 <pre>
-                -- TopNBolt --
-              /                \
-TwitterSpout  ------------------ FilterBolt -- ReportBolt
+             -- ParseTweetBolt -- TopNBolt -- 
+           /                                  \
+TweetSpout ------------------------------------ ParseTweetBolt -- ReportBolt
 </pre>
 
-TopNBolt
+TopNBolt (currently version uses a CountBolt)
 <pre>
-FilterBolt -- (Rolling)CountBolt -- IntermediateRankingsBolt -- TotalRankingsBolt
+(Rolling)CountBolt -- IntermediateRankingsBolt -- TotalRankingsBolt
 </pre>
 
 __topology components__:

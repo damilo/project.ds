@@ -8,7 +8,7 @@ r = redis.StrictRedis(host='127.0.0.1', port=6379, db=0)
 
 def event_stream():
     pubsub = r.pubsub()
-    pubsub.subscribe('project.ds.twitter')
+    pubsub.subscribe('topn-tweets')
     for message in pubsub.listen():
         print (message)
         yield 'data: %s\n\n' % message['data']
